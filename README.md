@@ -69,5 +69,7 @@ I've just completed day 16 of #100DaysOfSwift!
 
 Project 1, part one
 
+![Captura de Tela 2022-02-09 às 20 47 47](https://user-images.githubusercontent.com/67661998/153309977-d4c947ac-c92c-4fc0-8bac-63d7d4167675.png)
+
 
 
