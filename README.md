@@ -71,5 +71,12 @@ Project 1, part one
 
 ![Captura de Tela 2022-02-09 às 20 47 47](https://user-images.githubusercontent.com/67661998/153309977-d4c947ac-c92c-4fc0-8bac-63d7d4167675.png)
 
+## Day 17
+
+I've just completed day 17 of #100DaysOfSwift!
+
+![Captura de Tela 2022-02-10 às 21 31 25](https://user-images.githubusercontent.com/67661998/153520034-d60dd97f-0e6a-4af1-9b98-2d479768ae56.png)       ![Captura de Tela 2022-02-10 às 21 33 07](https://user-images.githubusercontent.com/67661998/153520104-92a721c1-bb0e-4ffd-b52e-7fd8ac36f003.png)
+
+
 
 
