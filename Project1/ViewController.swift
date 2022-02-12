@@ -11,8 +11,6 @@ class ViewController: UITableViewController {
     
     var pictures = [String]()
     
-    var message = "Best app"
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,10 +26,9 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
-        
-        print(pictures)
-        
     }
+    
+    //MARK: - Table View
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
@@ -53,8 +50,7 @@ class ViewController: UITableViewController {
             vc.selectedImage = pictures[indexPath.row]
             vc.selectedPictureNumber = indexPath.row + 1
             vc.totalPictures = pictures.count
-         
-            vc.selectedImage = pictures[indexPath.row]
+            
             navigationController?.pushViewController(vc, animated: true)
             
         }
