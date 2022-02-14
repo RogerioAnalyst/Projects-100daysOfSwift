@@ -87,11 +87,21 @@ I've just completed day 18 of #100DaysOfSwift!
 
 ### Day 19
 
-I've just completed day 18 of #10DaysOfSwift!
+I've just completed day 19 of #100DaysOfSwift!
 
 #Project2
 
 ![Captura de Tela 2022-02-12 às 22 16 58](https://user-images.githubusercontent.com/67661998/153734194-27235c85-2151-4bae-8fe2-5e69a208473a.png)
+
+
+### Day 20
+
+I've just completed day 20 of #100DaysOfSwift!
+
+#Project 2, part two
+
+![Captura de Tela 2022-02-13 às 21 28 00](https://user-images.githubusercontent.com/67661998/153782341-9d5f6050-bf32-46a7-aaca-801514d8b91e.png)
+
 
 
 
