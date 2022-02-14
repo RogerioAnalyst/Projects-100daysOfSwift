@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     var contries = [String]()
     var score = 0
+    var correctAnshwer = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,11 +34,37 @@ class ViewController: UIViewController {
         
     }
     
-    func askQuestion(){
+    func askQuestion(action: UIAlertAction! = nil){
+        
+        contries.shuffle()
+        correctAnshwer = Int.random(in: 0...2)
         
         button1.setImage(UIImage(named: contries[0]), for: .normal)
         button2.setImage(UIImage(named: contries[1]), for: .normal)
         button3.setImage(UIImage(named: contries[2]), for: .normal)
         
+        title = contries[correctAnshwer].uppercased()
+        
     }
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        var title: String
+        
+        if sender.tag == correctAnshwer {
+            title = "Correct"
+            score += 1
+        } else {
+            title = "Wrong"
+            score -= 1
+        }
+        
+        let ac = UIAlertController(title: title, message: "Your score is \(score)", preferredStyle: .alert)
+        
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        
+        present(ac, animated: true)
+        
+    }
+    
 }
