@@ -112,7 +112,11 @@ I've just completed day 21 of #100DaysOfSwift!
 ![Captura de Tela 2022-02-14 às 21 20 26](https://user-images.githubusercontent.com/67661998/153968963-2fd840ff-4cbd-49a9-b289-e4f999655343.png)
 
 
+### Day 22 and 23
 
+I've just completed day 22 and day 23 of #100DaysOfSwift!
+
+Today UIActivityViewController was added to the DetailViewController and permission was made inside the infoplist to download the image by accessing our created action called "sharedTapped"
 
 
 
